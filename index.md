@@ -23,7 +23,7 @@ _ _ _
 	* [理论与综述文章 Theoretical and survey papers](#22fsl理论与综述)
 	* [相关代码 Available codes](#23fsl代码)
 	* [代表性研究学者 Scholars](#24fsl代表性学者)
-	* [相关的硕博士论文 Thesis](#25fslthesis)
+	* [相关的硕博士论文 Thesis](#25fsl硕博士论文)
 	* [常用公开数据集和算法结果 Datasets and benchmark](26#fsl数据集)
 
 - - -
@@ -70,7 +70,7 @@ _ _ _
 
 #### 2.3.FSL代码
 
-[相关代码Available codes](https://github.com/dragon9001/MMG-page/blob/master/docs/fsl_code.md)
+[相关代码Available codes](https://github.com/jindongwang/transferlearning/tree/master/code)
 
 #### 2.4.FSL代表性学者
 
@@ -88,7 +88,7 @@ _ _ _
 
 领域常用的的数据集，用来对比算法的表现。
 
-[常用公开数据集和算法结果 Datasets and benchmark](https://github.com/dragon9001/MMG-page/blob/master/docs/fsl_dataset.md)
+[常用公开数据集和算法结果 Datasets and benchmark](https://github.com/dragon9001/MMG-page/blob/master/docs/fsl_data.md)
 
 
 
