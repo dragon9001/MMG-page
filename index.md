@@ -10,34 +10,65 @@ _ _ _
 
 ## 目录 Table of contents
 
-* [最新文章 Latest](#0latest)
+* [多模态学习和关系推理](#1多模态学习和关系推理)
+	* [研究领域与相关文章 Research articles by area](#11mml研究领域与相关文章)
+	* [理论与综述文章 Theoretical and survey papers](#12mml理论与综述文章)
+	* [相关代码 Available codes](#13mml代码)
+	* [代表性研究学者 Scholars](#14mml学者)
+	* [相关的硕博士论文 Thesis](#15mml硕博士论文)
+	* [常用公开数据集和算法结果 Datasets and benchmark](16#mml公开数据集和算法结果)
 
-* [多模态学习简介 Introduction to transfer learning](#1简介)
-
-* [研究领域与相关文章 Research articles by area](#2研究领域与相关文章) 
-
-* [理论与综述文章 Theoretical and survey papers](#3理论与综述文章)
-
-* [相关代码 Available codes](#4代码)
-
-* [代表性研究学者 Scholars](#5代表性研究学者)
-
-* [相关的硕博士论文 Thesis](#6相关的硕博士论文)
-
-* [常用公开数据集及算法结果 Datasets and benchmark](#7公开数据集及实验结果)
-
-[TOC]
+* [零样本/少样本学习](#2fslearning)
+	* [研究领域与相关文章 Research articles by area](#21fsl研究领域与相关文章)
+	* [理论与综述文章 Theoretical and survey papers](#22fsl理论与综述)
+	* [相关代码 Available codes](#23fsl代码)
+	* [代表性研究学者 Scholars](#24fsl学者)
+	* [相关的硕博士论文 Thesis](#25fslthesis)
+	* [常用公开数据集和算法结果 Datasets and benchmark](26#fsl数据集)
 
 - - -
 
-### 0.Latest
+### 1.多模态学习和关系推理
 
-[迁移学习文章汇总 Awesome transfer learning papers](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
-
+#### 1.1.MML研究领域与相关文章
+[多模态学习文章汇总 Awesome transfer learning papers](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
 - **最新发表论文**
 
 	- 20180620 CVPR-18 用迁移学习进行fine tune：[Large Scale Fine-Grained Categorization and Domain-Specific Transfer Learning](https://arxiv.org/abs/1806.06193)
+
+#### 1.2.MML理论与综述文章
+
+#### 1.3.MML代码
+
+#### 1.4.MML学者
+
+#### 1.5.MML硕博士论文
+
+#### 1.6.MML公开数据集和算法结果
+
+### 2.零样本学习和小样本学习
+
+#### 2.1.FSL研究领域与相关文章
+[多模态学习文章汇总 Awesome transfer learning papers](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
+
+- **最新发表论文**
+
+	- 20180620 CVPR-18 用迁移学习进行fine tune：[Large Scale Fine-Grained Categorization and Domain-Specific Transfer Learning](https://arxiv.org/abs/1806.06193)
+
+#### 2.2.FSL理论与综述文章
+
+#### 2.3.FSL代码
+
+#### 2.4.FSL学者
+
+#### 2.5.FSL硕博士论文
+
+#### 2.6.FSL公开数据集和算法结果
+
+
+
+
 
 - - -
 
