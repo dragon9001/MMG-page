@@ -31,7 +31,7 @@ _ _ _
 ### 1.多模态学习和关系推理
 
 #### 1.1.MML研究领域与相关文章
-[多模态学习文章汇总 Awesome transfer learning papers](https://github.com/dragon9001/MMG-page/blob/master/docs/mml_awesome_paper.md)
+[多模态学习文章汇总 Awesome Multi-Modal learning papers](https://github.com/dragon9001/MMG-page/blob/master/docs/mml_awesome_paper.md)
 
 #### 1.2.MML理论与综述文章
 [理论与综述文章 Theoretical and survey papers](https://github.com/dragon9001/MMG-page/blob/master/docs/mml_survey.md)
@@ -62,7 +62,7 @@ _ _ _
 ### 2.零样本学习和小样本学习
 
 #### 2.1.FSL研究领域与相关文章
-[零样本学习文章汇总 Awesome transfer learning papers](https://github.com/dragon9001/MMG-page/blob/master/docs/fsl_awesome_paper.md)
+[少样本学习文章汇总 Awesome Few-Shot learning papers](https://github.com/dragon9001/MMG-page/blob/master/docs/fsl_awesome_paper.md)
 
 #### 2.2.FSL理论与综述文章
 

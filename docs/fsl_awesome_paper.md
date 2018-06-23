@@ -5,3 +5,5 @@
 - 20180623 CVPR-18 基于直推式无偏嵌入的零样本学习: [
 Transductive Unbiased Embedding for Zero-Shot Learning](https://arxiv.org/abs/1803.11320)
 	- [我的解读](https://zhuanlan.zhihu.com/p/37891179)
+
+	
