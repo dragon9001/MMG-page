@@ -22,7 +22,7 @@ _ _ _
 	* [研究领域与相关文章 Research articles by area](#21fsl研究领域与相关文章)
 	* [理论与综述文章 Theoretical and survey papers](#22fsl理论与综述)
 	* [相关代码 Available codes](#23fsl代码)
-	* [代表性研究学者 Scholars](#24fsl学者)
+	* [代表性研究学者 Scholars](#24fsl代表性学者)
 	* [相关的硕博士论文 Thesis](#25fslthesis)
 	* [常用公开数据集和算法结果 Datasets and benchmark](26#fsl数据集)
 
@@ -31,45 +31,69 @@ _ _ _
 ### 1.多模态学习和关系推理
 
 #### 1.1.MML研究领域与相关文章
-[多模态学习文章汇总 Awesome transfer learning papers](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
-
-- **最新发表论文**
-
-	- 20180620 CVPR-18 用迁移学习进行fine tune：[Large Scale Fine-Grained Categorization and Domain-Specific Transfer Learning](https://arxiv.org/abs/1806.06193)
+[多模态学习文章汇总 Awesome transfer learning papers](https://github.com/dragon9001/MMG-page/blob/master/docs/mml_awesome_paper.md)
 
 #### 1.2.MML理论与综述文章
+[理论与综述文章 Theoretical and survey papers](https://github.com/dragon9001/MMG-page/blob/master/docs/mml_survey.md)
 
 #### 1.3.MML代码
 
+[相关代码Available codes](https://github.com/dragon9001/MMG-page/blob/master/docs/mml_code.md)
+
 #### 1.4.MML学者
+
+代表性研究学者，贡献了该领域最主要的研究。
+
+[代表性研究学者 Scholars](https://github.com/dragon9001/MMG-page/blob/master/docs/mml_scholar.md)
 
 #### 1.5.MML硕博士论文
 
+硕博士论文可以让我们很快地对迁移学习的相关领域做一些了解，同时，也能很快地了解概括相关研究者的工作。其中，比较有名的有
+
+[相关的硕博士论文 Thesis](https://github.com/dragon9001/MMG-page/blob/master/docs/mml_thesis.md)
+
 #### 1.6.MML公开数据集和算法结果
+
+领域常用的的数据集，用来对比算法的表现。
+
+[常用公开数据集和算法结果 Datasets and benchmark](https://github.com/dragon9001/MMG-page/blob/master/docs/mml_dataset.md)
+
 
 ### 2.零样本学习和小样本学习
 
 #### 2.1.FSL研究领域与相关文章
-[多模态学习文章汇总 Awesome transfer learning papers](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
-
-- **最新发表论文**
-
-	- 20180620 CVPR-18 用迁移学习进行fine tune：[Large Scale Fine-Grained Categorization and Domain-Specific Transfer Learning](https://arxiv.org/abs/1806.06193)
+[零样本学习文章汇总 Awesome transfer learning papers](https://github.com/dragon9001/MMG-page/blob/master/docs/fsl_awesome_paper.md)
 
 #### 2.2.FSL理论与综述文章
 
+[理论与综述文章 Theoretical and survey papers](https://github.com/dragon9001/MMG-page/blob/master/docs/fsl_survey.md)
+
 #### 2.3.FSL代码
 
-#### 2.4.FSL学者
+[相关代码Available codes](https://github.com/dragon9001/MMG-page/blob/master/docs/fsl_code.md)
+
+#### 2.4.FSL代表性学者
+
+代表性研究学者，贡献了该领域最主要的研究。
+
+[代表性研究学者 Scholars](https://github.com/dragon9001/MMG-page/blob/master/docs/fsl_scholar.md)
 
 #### 2.5.FSL硕博士论文
 
+硕博士论文可以让我们很快地对迁移学习的相关领域做一些了解，同时，也能很快地了解概括相关研究者的工作。其中，比较有名的有
+
+[相关的硕博士论文 Thesis](https://github.com/dragon9001/MMG-page/blob/master/docs/fsl_thesis.md)
+
 #### 2.6.FSL公开数据集和算法结果
 
+领域常用的的数据集，用来对比算法的表现。
+
+[常用公开数据集和算法结果 Datasets and benchmark](https://github.com/dragon9001/MMG-page/blob/master/docs/fsl_dataset.md)
 
 
 
 
+<!--
 - - -
 
 ### 1.简介
@@ -126,4 +150,4 @@ Please see [HERE](https://github.com/jindongwang/transferlearning/blob/master/do
 
 
 
-> ***[文章版权声明]这个仓库是我开源到Github上的，可以遵守相关的开源协议进行使用。这个仓库中包含有很多研究者的论文、硕博士论文等，都来源于在网上的下载，仅作为学术研究使用。我对其中一些文章都写了自己的浅见，希望能很好地帮助理解。这些文章的版权属于相应的出版社。如果作者或出版社有异议，请联系我进行删除。一切都是为了更好地学术！***
+> ***[文章版权声明]这个仓库是我开源到Github上的，可以遵守相关的开源协议进行使用。这个仓库中包含有很多研究者的论文、硕博士论文等，都来源于在网上的下载，仅作为学术研究使用。我对其中一些文章都写了自己的浅见，希望能很好地帮助理解。这些文章的版权属于相应的出版社。如果作者或出版社有异议，请联系我进行删除。一切都是为了更好地学术！***-->
