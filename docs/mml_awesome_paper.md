@@ -19,3 +19,9 @@
 
 - 20180718 cvpr2018 提出Stacked Cross Attention的概念来实现region和word之间更精细的对齐：[Stacked Cross Attention for Image-Text Matching](https://arxiv.org/abs/1803.08024)
 	- [我的解读](https://zhuanlan.zhihu.com/p/40198445) 
+	
+
+- 20180720 ICLR2017 阅读理解问题中的对passage和question的matching，主要反复运用了attention和LSTM（mlstm），
+*passage+question--->attention+question--->answer*   
+[Machine Comprehension Using Match-LSTM and Answer Pointer](https://arxiv.org/abs/1608.07905)
+	- [网上的解读](https://zhuanlan.zhihu.com/p/23459263)
