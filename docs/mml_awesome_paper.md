@@ -15,3 +15,7 @@
 
 - 20180714 cvpr2017 将注意力机制引入多媒体推理（VQA）和matching任务中：[Dual Attention Networks for Multimodal Reasoning and Matching](https://arxiv.org/abs/1611.00471)
 	- [我的解读](https://zhuanlan.zhihu.com/p/39764622)
+
+
+- 20180718 cvpr2018 提出Stacked Cross Attention的概念来实现region和word之间更精细的对齐：[Stacked Cross Attention for Image-Text Matching](https://arxiv.org/abs/1803.08024)
+	- [我的解读](https://zhuanlan.zhihu.com/p/40198445) 
