@@ -33,3 +33,16 @@
 
 - 20180723 在sentence match的任务中引入Densenet和co-attentive机制，这篇文章很多视角还是很独特的，比如attention和RNN的结合，auto-encoder的使用：[Semantic Sentence Matching with Densely-connected Recurrent and Co-attentive Information](https://arxiv.org/abs/1805.11360?context=cs.CL)
 	- [网上的解读](https://www.paperweekly.site/papers/2082)
+<br/><br/>
+
+- 20180913 vqa问题中采用fusion来实现跨模态数据的充分融合，同时解决参数过多的问题: [MUTAN: Multimodal Tucker Fusion for Visual Question Answering](https://arxiv.org/abs/1705.06676)
+	- [我的解读](https://zhuanlan.zhihu.com/p/44612979)
+	
+	- [代码实现](https://github.com/cadene/vqa.pytorch)
+<br/><br/>
+
+- 20180915 从MUTAN回溯的两篇有关bilinear model的文章，本质和MUTAN一样：[MCB](https://arxiv.org/abs/1606.01847v3), [MLB](https://arxiv.org/abs/1610.04325)
+	- [我的解读](http://note.youdao.com/noteshare?id=4ce973a2e4bddb6e45ec4ea293438560&sub=WEB313992369d40bcbe59c5423f7dc0cf78)
+	
+
+
