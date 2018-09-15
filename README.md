@@ -1,109 +1,153 @@
-# The Cayman theme
+---
+layout: default
+---
 
-[![Build Status](https://travis-ci.org/pages-themes/cayman.svg?branch=master)](https://travis-ci.org/pages-themes/cayman) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-cayman.svg)](https://badge.fury.io/rb/jekyll-theme-cayman)
+# 多模态学习 Multi-Modal Learning
 
-*Cayman is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](http://pages-themes.github.io/cayman), or even [use it today](#usage).*
+关于多模态学习的所有资料，包括：介绍、最新文章、代表工作及其代码、常用数据集、硕博士论文等等。
 
-![Thumbnail of Cayman](thumbnail.png)
+_ _ _
 
-## Usage
+## 目录 Table of contents
 
-To use the Cayman theme:
+* [多模态学习和关系推理](#1多模态学习和关系推理)
+	* [研究领域与相关文章 Research articles by area](#11mml研究领域与相关文章)
+	* [理论与综述文章 Theoretical and survey papers](#12mml理论与综述文章)
+	* [相关代码 Available codes](#13mml代码)
+	* [代表性研究学者 Scholars](#14mml学者)
+	* [相关的硕博士论文 Thesis](#15mml硕博士论文)
+	* [常用公开数据集和算法结果 Datasets and benchmark](16#mml公开数据集和算法结果)
 
-1. Add the following to your site's `_config.yml`:
+* [零样本/少样本学习](#2fslearning)
+	* [研究领域与相关文章 Research articles by area](#21fsl研究领域与相关文章)
+	* [理论与综述文章 Theoretical and survey papers](#22fsl理论与综述)
+	* [相关代码 Available codes](#23fsl代码)
+	* [代表性研究学者 Scholars](#24fsl代表性学者)
+	* [相关的硕博士论文 Thesis](#25fsl硕博士论文)
+	* [常用公开数据集和算法结果 Datasets and benchmark](26#fsl数据集)
 
-    ```yml
-    theme: jekyll-theme-cayman
-    ```
+- - -
 
-2. Optionally, if you'd like to preview your site on your computer, add the following to your site's `Gemfile`:
+### 1.多模态学习和关系推理
 
-    ```ruby
-    gem "github-pages", group: :jekyll_plugins
-    ```
+#### 1.1.MML研究领域与相关文章
+[多模态学习文章汇总 Awesome Multi-Modal learning papers](https://github.com/dragon9001/MMG-page/blob/master/docs/mml_awesome_paper.md)
 
-## Customizing
+#### 1.2.MML理论与综述文章
+[理论与综述文章 Theoretical and survey papers](https://github.com/dragon9001/MMG-page/blob/master/docs/mml_survey.md)
 
-### Configuration variables
+#### 1.3.MML代码
 
-Cayman will respect the following variables, if set in your site's `_config.yml`:
+[相关代码Available codes](https://github.com/dragon9001/MMG-page/blob/master/docs/mml_code.md)
 
-```yml
-title: [The title of your site]
-description: [A short description of your site's purpose]
-```
+#### 1.4.MML学者
 
-Additionally, you may choose to set the following optional variables:
+代表性研究学者，贡献了该领域最主要的研究。
 
-```yml
-show_downloads: ["true" or "false" to indicate whether to provide a download URL]
-google_analytics: [Your Google Analytics tracking ID]
-```
+[代表性研究学者 Scholars](https://github.com/dragon9001/MMG-page/blob/master/docs/mml_scholar.md)
 
-### Stylesheet
+#### 1.5.MML硕博士论文
 
-If you'd like to add your own custom styles:
+硕博士论文可以让我们很快地对迁移学习的相关领域做一些了解，同时，也能很快地了解概括相关研究者的工作。其中，比较有名的有
 
-1. Create a file called `/assets/css/style.scss` in your site
-2. Add the following content to the top of the file, exactly as shown:
-    ```scss
-    ---
-    ---
+[相关的硕博士论文 Thesis](https://github.com/dragon9001/MMG-page/blob/master/docs/mml_thesis.md)
 
-    @import "{{ site.theme }}";
-    ```
-3. Add any custom CSS (or Sass, including imports) you'd like immediately after the `@import` line
+#### 1.6.MML公开数据集和算法结果
 
-*Note: If you'd like to change the theme's Sass variables, you must set new values before the `@import` line in your stylesheet.*
+领域常用的的数据集，用来对比算法的表现。
 
-### Layouts
+[常用公开数据集和算法结果 Datasets and benchmark](https://github.com/dragon9001/MMG-page/blob/master/docs/mml_dataset.md)
 
-If you'd like to change the theme's HTML layout:
 
-1. [Copy the original template](https://github.com/pages-themes/cayman/blob/master/_layouts/default.html) from the theme's repository<br />(*Pro-tip: click "raw" to make copying easier*)
-2. Create a file called `/_layouts/default.html` in your site
-3. Paste the default layout content copied in the first step
-4. Customize the layout as you'd like
+### 2.零样本学习和小样本学习
 
-### Overriding GitHub-generated URLs
+#### 2.1.FSL研究领域与相关文章
+[少样本学习文章汇总 Awesome Few-Shot learning papers](https://github.com/dragon9001/MMG-page/blob/master/docs/fsl_awesome_paper.md)
 
-Templates often rely on URLs supplied by GitHub such as links to your repository or links to download your project. If you'd like to override one or more default URLs:
+#### 2.2.FSL理论与综述文章
 
-1. Look at [the template source](https://github.com/pages-themes/cayman/blob/master/_layouts/default.html) to determine the name of the variable. It will be in the form of `{{ site.github.zip_url }}`.
-2. Specify the URL that you'd like the template to use in your site's `_config.yml`. For example, if the variable was `site.github.url`, you'd add the following:
-    ```yml
-    github:
-      zip_url: http://example.com/download.zip
-      another_url: another value
-    ```
-3. When your site is built, Jekyll will use the URL you specified, rather than the default one provided by GitHub.
+[理论与综述文章 Theoretical and survey papers](https://github.com/dragon9001/MMG-page/blob/master/docs/fsl_survey.md)
 
-*Note: You must remove the `site.` prefix, and each variable name (after the `github.`) should be indent with two space below `github:`.*
+#### 2.3.FSL代码
 
-For more information, see [the Jekyll variables documentation](https://jekyllrb.com/docs/variables/).
+[相关代码Available codes](https://github.com/jindongwang/transferlearning/tree/master/code)
 
-## Roadmap
+#### 2.4.FSL代表性学者
 
-See the [open issues](https://github.com/pages-themes/cayman/issues) for a list of proposed features (and known issues).
+代表性研究学者，贡献了该领域最主要的研究。
 
-## Project philosophy
+[代表性研究学者 Scholars](https://github.com/dragon9001/MMG-page/blob/master/docs/fsl_scholar.md)
 
-The Cayman theme is intended to make it quick and easy for GitHub Pages users to create their first (or 100th) website. The theme should meet the vast majority of users' needs out of the box, erring on the side of simplicity rather than flexibility, and provide users the opportunity to opt-in to additional complexity if they have specific needs or wish to further customize their experience (such as adding custom CSS or modifying the default layout). It should also look great, but that goes without saying.
+#### 2.5.FSL硕博士论文
 
-## Contributing
+硕博士论文可以让我们很快地对迁移学习的相关领域做一些了解，同时，也能很快地了解概括相关研究者的工作。其中，比较有名的有
 
-Interested in contributing to Cayman? We'd love your help. Cayman is an open source project, built one contribution at a time by users like you. See [the CONTRIBUTING file](docs/CONTRIBUTING.md) for instructions on how to contribute.
+[相关的硕博士论文 Thesis](https://github.com/dragon9001/MMG-page/blob/master/docs/fsl_thesis.md)
 
-### Previewing the theme locally
+#### 2.6.FSL公开数据集和算法结果
 
-If you'd like to preview the theme locally (for example, in the process of proposing a change):
+领域常用的的数据集，用来对比算法的表现。
 
-1. Clone down the theme's repository (`git clone https://github.com/pages-themes/cayman`)
-2. `cd` into the theme's directory
-3. Run `script/bootstrap` to install the necessary dependencies
-4. Run `bundle exec jekyll serve` to start the preview server
-5. Visit [`localhost:4000`](http://localhost:4000) in your browser to preview the theme
+[常用公开数据集和算法结果 Datasets and benchmark](https://github.com/dragon9001/MMG-page/blob/master/docs/fsl_data.md)
 
-### Running tests
 
-The theme contains a minimal test suite, to ensure a site with the theme would build successfully. To run the tests, simply run `script/cibuild`. You'll need to run `script/bootstrap` one before the test script will work.
+
+
+<!--
+- - -
+
+### 1.简介
+
+- 简介文字资料
+
+	- 清华大学龙明盛老师的深度迁移学习报告：[PPT(三星研究院)](http://ise.thss.tsinghua.edu.cn/~mlong/doc/transfer-learning-talk.pdf)、[PPT(Google China)](http://ise.thss.tsinghua.edu.cn/~mlong/doc/deep-transfer-learning-talk.pdf)
+
+- - -
+
+### 2.迁移学习研究领域与相关文章
+
+Related articles by research areas:
+
+- [强化迁移学习 Transfer Learning with Reinforcement Learning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#强化迁移学习)
+
+- [应用 Applications](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#应用)
+	- [迁移学习用于行为识别 Transfer learning for activity recognition](https://github.com/jindongwang/activityrecognition/blob/master/notes/%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0%E7%94%A8%E4%BA%8E%E8%A1%8C%E4%B8%BA%E8%AF%86%E5%88%AB.md)
+
+- - -
+
+### 3.理论与综述文章
+
+_ _ _
+
+### 4.代码
+
+_ _ _
+
+### 5.代表性研究学者
+
+**全部列表以及代表工作性见[这里](https://github.com/jindongwang/transferlearning/blob/master/doc/scholar_TL.md)**
+
+- [Mingsheng Long](http://ise.thss.tsinghua.edu.cn/~mlong/)：中文名龙明盛，清华大学博士，现任清华大学助理教授、博士生导师。[[Google scholar](https://scholar.google.com/citations?view_op=search_authors&mauthors=mingsheng+long&hl=zh-CN&oi=ao)]
+
+_ _ _
+
+### 6.相关的硕博士论文
+
+硕博士论文可以让我们很快地对迁移学习的相关领域做一些了解，同时，也能很快地了解概括相关研究者的工作。其中，比较有名的有
+
+- 2016 Baochen Sun的[Correlation Alignment for Domain Adaptation](http://www.cs.uml.edu/~bsun/papers/baochen_phd_thesis.pdf)
+
+- - -
+
+### 7.公开数据集及实验结果
+
+迁移学习领域有一些公开的数据集，用来对比算法的表现。
+
+- [这里](https://github.com/jindongwang/transferlearning/blob/master/doc/dataset.md)整理了常用的公开数据集
+- [这里](https://github.com/jindongwang/transferlearning/blob/master/doc/benchmark.md)整理汇总了一些已发表的文章在这些数据集上的实验结果。
+
+Please see [HERE](https://github.com/jindongwang/transferlearning/blob/master/doc/dataset.md) for the popular transfer learning datasets and [HERE](https://github.com/jindongwang/transferlearning/blob/master/doc/benchmark.md) for some benchmark results.
+
+
+
+> ***[文章版权声明]这个仓库是我开源到Github上的，可以遵守相关的开源协议进行使用。这个仓库中包含有很多研究者的论文、硕博士论文等，都来源于在网上的下载，仅作为学术研究使用。我对其中一些文章都写了自己的浅见，希望能很好地帮助理解。这些文章的版权属于相应的出版社。如果作者或出版社有异议，请联系我进行删除。一切都是为了更好地学术！***-->
